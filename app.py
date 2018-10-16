@@ -19,8 +19,8 @@ db_bal = float(data['db_bal'])
 cr_name = data['cr_name']
 cr_bal = float(data['cr_bal'])
 amt = float(amount)
-print 'Nama Pengirim : ', db_name[0]
-print 'Saldo : Rp. ', '{0:,.2f}'.format(db_bal)
-print 'Nama Penerima : ', cr_name[0]
-print 'Saldo : Rp. ', '{0:,.2f}'.format(cr_bal)
-print 'Jumlah Transfer : Rp. ', '{0:,.2f}'.format(amt)
+print ('Nama Pengirim : ', db_name[0])
+print ('Saldo : Rp. ', '{0:,.2f}'.format(db_bal))
+print ('Nama Penerima : ', cr_name[0])
+print ('Saldo : Rp. ', '{0:,.2f}'.format(cr_bal))
+print ('Jumlah Transfer : Rp. ', '{0:,.2f}'.format(amt))
