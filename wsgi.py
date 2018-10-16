@@ -2,7 +2,7 @@ from flask import Flask
 application = Flask(__name__)
 
 @application.route("/")
-def hello():
+def main():
     kid = raw_input('KID : ')
 	db = raw_input('Rekening Pengirim : ')
 	cr = raw_input('Rekening Penerima : ')
