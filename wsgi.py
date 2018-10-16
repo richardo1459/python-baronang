@@ -19,11 +19,11 @@ def hello():
 	cr_bal = float(data['cr_bal'])
 	amt = float(amount)
 
-	print 'Nama Pengirim : ', db_name[0]
-	print 'Saldo : Rp. ', '{0:,.2f}'.format(db_bal)
-	print 'Nama Penerima : ', cr_name[0]
-	print 'Saldo : Rp. ', '{0:,.2f}'.format(cr_bal)
-	print 'Jumlah Transfer : Rp. ', '{0:,.2f}'.format(amt)
+	return 'Nama Pengirim : ', db_name[0]
+	return 'Saldo : Rp. ', '{0:,.2f}'.format(db_bal)
+	return 'Nama Penerima : ', cr_name[0]
+	return 'Saldo : Rp. ', '{0:,.2f}'.format(cr_bal)
+	return 'Jumlah Transfer : Rp. ', '{0:,.2f}'.format(amt)
 
 if __name__ == "__main__":
     application.run()
